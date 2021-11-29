@@ -9,5 +9,5 @@
     fwrite($file, "email:");
     fwrite($file, $email ."\n");
     fclose($file);
-    header("location:index.php");
+    header("location:index.html");
  ?>
